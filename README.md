@@ -12,9 +12,10 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
   
   Using this way parent component will be able to access the properties and methods of child component. The child component selector will be used in parent component HTML template.
   
-  Step1: Create one child component. There we will write methods and properties. I created number.component.ts. In that child component i wrote methods and properties. 
+  Step1: Create one child component. There we will write methods and properties. I created [number.component.ts]. In that child component i wrote methods and properties. 
   
   Step2: I Created the instance of NumberComponent in my parent component using @ViewChild(). 
+  
   export class NumberParentComponent {
     @ViewChild(NumberComponent)
     ----- Here we are able to access the methods and properties of NumberComponent.
