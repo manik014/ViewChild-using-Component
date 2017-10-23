@@ -18,7 +18,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
   
  # export class NumberParentComponent {
    # @ViewChild(NumberComponent)
-    # ----- Here we are able to access the methods and properties of NumberComponent.
+     ----- Here we are able to access the methods and properties of NumberComponent.
    # }
     
    Note: NumberComponent and NumberParentComponent need to be configured in @NgModule in application module. 
